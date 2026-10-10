@@ -1,0 +1,45 @@
+# Runtime data and logs
+/var/*
+!/var/.gitignore
+!/var/lib/
+/var/lib/*
+!/var/lib/cowrie/
+/var/lib/cowrie/*
+!/var/lib/cowrie/.gitignore
+/var/log/
+/var/run/
+/var/alerts/
+
+# Private Cowrie host keys and generated identity
+/var/lib/cowrie/ssh_host_*
+/var/lib/cowrie/uuid
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local backups
+*.bak
+*.bak.*
+*.before-*
+*.chart-backup
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local backup files
+*.bak*
+*.before-*
+*.chart-backup
+
+# Runtime data, logs, and generated Cowrie identity
+/var/
