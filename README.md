@@ -121,3 +121,13 @@ Sample events use reserved documentation IP addresses. Local Docker traffic and 
 ## Disclaimer
 
 This project is for educational and defensive cybersecurity research. Only use it on systems and networks you own or are authorized to test.
+## Screenshots
+
+### Honeypot Dashboard
+![SSH Honeypot SOC Dashboard](screenshots/honeypot-dashboard.png)
+
+### Login Detection
+![Login Detection](screenshots/login-detection.png)
+
+### Security Alerts
+![Security Alerts](screenshots/security-alerts.png)
